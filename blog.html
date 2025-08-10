@@ -10,6 +10,8 @@
     <div>
     <h1>Titulo del Contacto</h1>
     <form action="">
+      <fieldset> 
+        <legend>Titulo de Contacto</legend>
       <label  for="nombre">Nombre:</label>
       <input type="text" name="name" id="name" required>  
     </div>
@@ -18,11 +20,18 @@
       <label for="apellido">Apellido:</label>
       <input type="text" name="apellido" id="apellido" required>
     </div>
+    <br>
     <div>
       <label for="edad">Edad</label>
       <input type="number" step="1" max="100" required>
     </div>
-    <button>GUARDAR</button>
-    <fieldset></fieldset>
+    <br>
+    <div><label for="correo">Correo</label>
+    <input type="text" name="correo" id="correo" required >
+    </div>
+  <br>
+  <div><label for="fecha">Fecha de nacimiento</label>
+  <input type="date" name="fecha" id="fecha"></div>
+ <button>GUARDAR</button>
 </body>
 </html>
